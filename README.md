@@ -9,7 +9,7 @@ A number of engineered features are used to train a Logistic Regression Model wi
 The target for prediction is the midpoint price 60,120,300,600,900 seconds in the future. The midpoint price is the average of the best bid price and the best ask price.
 
 ## Model
-see Ipython Notebook Model
+see Ipython Notebook Model: https://github.com/KlausGlueckert/bitpredict/blob/master/build_model_classify.ipynb
 
 ## Features
 

@@ -1,10 +1,12 @@
-from funcs_general import *
+from __init__ import *
 sys.path.insert(0,'/var/www/vhosts/algotrade.glueckert.net/projects/') 
 from SETTINGS.settings_auth import *
 
 mongo_uri = auth['mongo_uri']
-client = MongoClient(mongo_uri)
+client = MongoClient(mongo_uri,waitQueueTimeoutMS=120)
 db = client['bitmicro']
+
+atexit.register(exit_handler)
 
 def delta(present,future):
     return future/present
