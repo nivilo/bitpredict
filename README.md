@@ -10,3 +10,5 @@ The target for prediction is the midpoint price 60,120,300,600,900 seconds in th
 
 ## Model
 see Ipython Notebook Model: https://github.com/KlausGlueckert/bitpredict/blob/master/build_model_classify.ipynb
+
+![alt text](backtest.png)
